@@ -36,6 +36,7 @@ background-color: #BFA77A;
 h1 {
   font-size: 100px;
   color: #FFDFA3;
+  font-family: 'Kaushan Script', cursive;
 }
 
 h2 {
@@ -157,7 +158,7 @@ section > div {
   margin-top:20px;
   margin-left: 7%;
   width: 600px;
-  height: 450px;
+  height: 400px;
   display: inline-block;
 }
 
