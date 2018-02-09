@@ -49,6 +49,19 @@ h3 {
   font-style: italic;
 }
 
+.image1 {
+  height: 100px;
+  width: 200px;
+}
+
+.image2 {
+  width: 30px;
+}
+
+.image3 {
+  width: 55px;
+}
+
 .landing {
   padding-top: 50px;
   line-height: 0.8;
