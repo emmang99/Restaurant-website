@@ -49,19 +49,6 @@ h3 {
   font-style: italic;
 }
 
-.image1 {
-  height: 100px;
-  width: 200px;
-}
-
-.image2 {
-  width: 30px;
-}
-
-.image3 {
-  width: 55px;
-}
-
 .landing {
   padding-top: 50px;
   line-height: 0.8;
@@ -147,11 +134,14 @@ section > div {
   text-align: center;
   width: 250px;
   height: 400px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   margin: 20px;
   display: inline-block;
+}
+
+section img {
+  height: 100px;
+  width: 200px;
 }
 
 .contact-info {
@@ -162,7 +152,10 @@ section > div {
   background-color: #BFA77A;
   color: black;
   text-align: center;
+}
 
+.contact-info img {
+  width: 55px;
 }
 
 .boxx {
@@ -170,8 +163,9 @@ section > div {
   float: center;
   margin-top:20px;
   margin-left: 7%;
+  padding: 10px;
   width: 600px;
-  height: 400px;
+  height: 300px;
   display: inline-block;
 }
 
