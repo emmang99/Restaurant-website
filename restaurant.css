@@ -1,8 +1,10 @@
+/*This affects everything in the web page. I want my default font to be 'Crimson Text' so I put it here.*/
 body {
   margin:0;
   font-family: 'Crimson Text', serif;
 }
 
+/*This customizes the unordered list in general. To make it always be on the top wherever I scroll, I use position:fixed;*/
 ul {
  list-style-type: none;
  margin: 0;
@@ -14,10 +16,12 @@ ul {
  width: 100%;
 }
 
+/*This will keep all the elements float to left*/
 li {
 float: left;
 }
 
+/*This customizes for the links.*/
 li a {
 display: block;
 color: white;
@@ -27,15 +31,18 @@ text-decoration: none;
 font-size: 20px;
 }
 
-li a:hover:not(.active) {
-background-color: #BFA77A;
-}
-
- .active {
+/*This makes each of the link changes its color when the cursor hovers on it*/
+li a:hover {
   background-color: #FFDFA3;
   color: black;
+}
+
+/*This is for the active link*/
+li a:active {
+  background-color: #BFA77A;
  }
 
+/*This will affect all the h1, h2, h3 in the page.*/
 h1 {
   font-size: 100px;
   color: #FFDFA3;
@@ -53,6 +60,7 @@ h3 {
   font-weight: bold;
 }
 
+/*I style my landing section in this. Its height will fill the screen fully so I use height:100vh*/
 .landing {
   padding-top: 50px;
   line-height: 0.8;
@@ -64,6 +72,7 @@ h3 {
   background: url('http://taguephoto.com/wp-content/uploads/2013/11/Restaurant-Food-Photography-08.jpg')
 }
 
+/*This styles the yellow bar that covers 'Menu' and 'Contact'*/
 .box {
   background-color: #FFDFA3;
   width: 100%;
@@ -77,6 +86,7 @@ h3 {
   color: black;
 }
 
+/*This is the general styling for 'Lunch' and 'Menu' sections. The different attibutes will be in another one. I use height: 100vh to make it fit the screen height fully*/
 .food {
   padding-top: 50px;
   line-height: 1.5;
@@ -85,16 +95,19 @@ h3 {
   height: 100vh;
 }
 
+/*I style the 'Lunch' section with this*/
 .lunch {
   background-color: white;
   color: black;
 }
 
+/*I style the 'Dinner' section with this*/
 .dinner {
   background-color: black;
   color: white;
 }
 
+/*These ids are for the different attibutes in the <section>*/
 #center1 {
   background-color: black;
   color: white;
@@ -105,6 +118,7 @@ h3 {
   color: black;
 }
 
+/*This is the styling for <section>. All of the same attributes go in here.*/
 section > div {
   float: center;
   text-align: center;
@@ -120,12 +134,13 @@ section img {
   width: 200px;
 }
 
+/*This is the styling for 'Contact' section, serves as the background. Like the others, it has to be in full screen so I use height: 100vh*/
 .contact-info {
   padding-top: 30px;
   line-height: 0.5;
   width: 100%;
   height: 100vh;
-  background-color: #BFA77A;
+  background: url('https://st.depositphotos.com/3470617/4920/v/950/depositphotos_49204375-stock-illustration-fast-food-background.jpg');
   color: black;
   text-align: center;
 }
@@ -134,6 +149,7 @@ section img {
   width: 55px;
 }
 
+/*This is for the content box*/
 .boxx {
   background-color: white;
   float: center;
@@ -145,6 +161,7 @@ section img {
   display: inline-block;
 }
 
+/*This is the styling for the TOP button.*/
 #icon {
   margin-top: 420px;
   margin-right: 30px;
