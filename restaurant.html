@@ -2,8 +2,11 @@
 <html>
   <head>
    <meta charset="utf-8">
+   <!--This will normalize my CSS, make the website look the same in every browser-->
    <link rel="stylesheet" type="text/css" href="normalize.css">
+   <!--This will link my CSS-->
    <link rel="stylesheet" type="text/css" href="restaurant.css">
+   <!--This will add fonts to my site-->
    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Crimson+Text" rel="stylesheet">
   </head>
 
@@ -18,7 +21,7 @@
     <li><a href="#contact">Contact</a></li>
    </ul>
 
-<!--The <a name> tag will link this section to the option in the navigation bar.-->
+<!--The <a name> tag will link this section to the 'Home' option in the navigation bar.-->
    <a name="home">
     <div class="landing">
      <h2>Welcome to</h2>
@@ -32,12 +35,14 @@
    <div class="box">
     <p>MENU</p>
     </div>
-
+<!--LUNCH SECTION-->
+<!--The <a name> tag will link this section to the 'Lunch' option in the navigation bar.-->
    <a name="food1">
     <div class="food lunch">
       <h3>Lunch:</h3>
       <h4>12:00pm - 5:00pm</h4>
 
+<!--The <section> tag -->
       <section>
        <div id="left1">
         <img src="https://i1.wp.com/www.thefoodphotoagency.com/wp-content/uploads/2016/11/17990145.jpg?ssl=1" class="image1">
@@ -46,7 +51,7 @@
         <p>The all-American burger comprises juicy beef patty grilled to perfection with hot melted cheese, top with fresh lettuce and tomato. The best part is our special sauce; creamy with a touch of sour. Served with fries.</p>
        </div>
 
-       <div id="center1">
+       <div id="left1">
         <img src="http://www.hoshinoresorts-magazine.com/wp-content/uploads/2016/05/typical-japanese-bento-1500x1000_150dpi.jpg" class="image1">
         <h3>Bento</h3>
         <h4>S - $8.99 ; L - $9.99</h4>
@@ -60,6 +65,13 @@
          <p>This classic Italian dish is one of our specialties. Pick a type of pasta (spaghetti (in picture), fettucine, penne, linguine) and a exquisite sauce (Alfredo, marinara, bolognese (in picture), pesto) to complete your favorite pasta. Served with cheese flakes or bread crumbs (optional). </p>
        </div>
 
+       <div id="right1">
+        <img src="http://assets.kraftfoods.com/recipe_images/opendeploy/201689_640x428.jpg" class="image1">
+        <h3>Chef's Pasta</h3>
+        <h4>$9.99</h4>
+        <p>This classic Italian dish is one of our specialties. Pick a type of pasta (spaghetti (in picture), fettucine, penne, linguine) and a exquisite sauce (Alfredo, marinara, bolognese (in picture), pesto) to complete your favorite pasta. Served with cheese flakes or bread crumbs (optional). </p>
+      </div>
+      
        <div id="right1">
         <img src="http://cdn-image.foodandwine.com/sites/default/files/201308-xl-tomato-soup-with-chickpeas-and-pasta.jpg">
         <h3>Gourmet Cream Soup</h3>
@@ -79,29 +91,41 @@
 
      <section>
       <div id="left2">
-       <img src="https://i0.wp.com/www.thefoodphotoagency.com/wp-content/uploads/2017/02/1.jpg?ssl=1">
-       <h3>Beefsteak</h3>
-       <h4>16oz - $45.99 ; 24oz - $55.99</h4>
-       <p>Our restaurant signature dish consist of a juicy rib eye steak is to die for; accompanied with the fragrance of rosemary. The sauce is to your choice (chimichurri, mushroom or red wine) or none for the full herbal taste (in picture). Served with fries or smashed potato and grilled vegetable.</p>
+        <img src="https://assets.epicurious.com/photos/5a3002b504847a34b821cb4a/master/pass/seared-scallops-with-brown-butter-and-lemon-pan-sauce-recipe-BA-121217.jpg">
+        <h3>Seared Scallop</h3>
+        <h4>Appertizer</h4>
+        <h4>$15.99</h4>
+        <p>Fresh from the sea to your table, you cannot miss the chance of getting this seared scallops dish. The harmonious combination of the brown butter's richness and lemon pan sauce's sourness goes beyond your expectations.</p>
       </div>
 
-       <div id="center2">
+       <div id="left2">
          <img src="https://www.simplyrecipes.com/wp-content/uploads/2012/03/salmon-lemon-cream-sauce-horiz-b-1600.jpg">
          <h3>Grilled Salmon</h3>
+         <h4>Main Course</h4>
          <h4>$19.99</h4>
          <p>Getting this mouth - watering dish is one way to get more heart-healthy Omega-3 into your diet. We grill the freshest Norwegian salmon with aromatic herbs and finish with the delicious lemon cream sauce poured on top. </p>
       </div>
 
       <div id="center2">
-       <img src="https://assets.epicurious.com/photos/5a3002b504847a34b821cb4a/master/pass/seared-scallops-with-brown-butter-and-lemon-pan-sauce-recipe-BA-121217.jpg">
-       <h3>Seared Scallop</h3>
-       <h4>$15.99</h4>
-       <p>Fresh from the sea to your table, you cannot miss the chance of getting this seared scallops dish. The harmonious combination of the brown butter's richness and lemon pan sauce's sourness goes beyond your expectations.</p>
+        <img src="https://i0.wp.com/www.thefoodphotoagency.com/wp-content/uploads/2017/02/1.jpg?ssl=1">
+        <h3>Beefsteak</h3>
+        <h4>Main Course</h4>
+        <h4>16oz - $45.99 ; 24oz - $55.99</h4>
+        <p>Our signature dish consist of a juicy rib eye steak with the fragrance of rosemary is to die for. The sauce is to your choice (chimichurri, mushroom or red wine) or none for the full herbal taste (in picture). Served with fries or smashed potato and grilled vegetable.</p>
       </div>
+
+      <div id="right2">
+       <img src="https://www.ghirardelli.com/wcsstore/GhirardelliCatalogAssetStore//Images/images/recipe-full-size/1074-individual-chocolate-lava-cakes.jpg" class="image1">
+       <h3>Molten Lava Cake</h3>
+       <h4>Dessert</h4>
+       <h4>$9.99</h4>
+       <p>This classic Italian dish is one of our specialties. Pick a type of pasta (spaghetti (in picture), fettucine, penne, linguine) and a exquisite sauce (Alfredo, marinara, bolognese (in picture), pesto) to complete your favorite pasta. Served with cheese flakes or bread crumbs (optional). </p>
+     </div>
 
       <div id="right2">
        <img src="http://img.taste.com.au/WH5BdwXm/taste/2016/11/vietnamese-grilled-pork-chops-with-pickled-slaw-104657-1.jpeg">
        <h3>Grilled Pork Chop</h3>
+       <h4>Main Course</h4>
        <h4>$12.99</h4>
        <p>One of the best cuisines of Southeast Asia brings you this authentic Vietnamese traditional dish. You will be surprised by the powerful flavour of the honey grilled pork chop, paired with pickled slaw, rice and spicy fish sauce. Add sunny - side up eggs for $1.99.</p>
       </div>
