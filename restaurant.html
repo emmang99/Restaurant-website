@@ -11,10 +11,10 @@
   </head>
 
   <body>
-  <!--This is my navigation bar. In each box I have a link to a specific section on the page; to do that, I use <a href="#">.-->
+  <!--This is my navigation bar which is made from an unordered list. In each box I have a link to a specific section on the page; to do that, I use <a href="#">.-->
    <ul>
     <li><img src="http://www.sofienilsson.se/img/projects/36days/a-letter.png" style="width:70px;height:50px;" />
-    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#home">Home</a></li>
     <li><a href="#food1">Lunch</a></li>
     <li><a href="#food2">Dinner</a></li>
     <li><a href="#contact">Reservation</a></li>
@@ -35,16 +35,18 @@
    <div class="box">
     <p>MENU</p>
     </div>
+
 <!--LUNCH SECTION-->
 <!--The <a name> tag will link this section to the 'Lunch' option in the navigation bar.-->
    <a name="food1">
+<!--This div serves as the background for this section-->
     <div class="food lunch">
       <h3>Lunch:</h3>
       <h4>12:00pm - 5:00pm</h4>
 
-<!--The <section> tag -->
+<!--I use <section> tag to apply similar attributes to smaller content parts, also to differentiate between the 'Lunch' and 'Dinner' sections as they have some different attributes.-->
       <section>
-
+<!--Each div is a box-->
        <div id="center1">
         <img src="https://www.asweetpeachef.com/wp-content/uploads/2015/01/easy-soup-recipes-cream-of-fresh-tomato-soup.jpg">
         <h3>Gourmet Cream Soup</h3>
@@ -89,13 +91,16 @@
    </div>
   </a>
 
-
+<!--DINNER SECTION-->
+<!--The <a name> tag will link this section to the 'DINNER' option in the navigation bar.-->
   <a name="food2">
+<!--This div serves as the background for this section-->
    <div class="food dinner">
      <h3>Dinner:</h3>
      <h4>6:00pm - 11:30pm</h4>
-
+<!--I start with a new <section> tag to apply the different attributes.-->
      <section>
+<!--Each div is a box-->
       <div id="center2">
         <img src="https://assets.epicurious.com/photos/5a3002b504847a34b821cb4a/master/pass/seared-scallops-with-brown-butter-and-lemon-pan-sauce-recipe-BA-121217.jpg">
         <h3>Seared Scallop</h3>
@@ -140,13 +145,16 @@
     </div>
    </a>
 
+<!--The <a name> tag will link this section to the 'CONTACT' option in the navigation bar.-->
    <a name="contact">
     <div class="box">
     <p>CONTACT</p>
     </div>
    </a>
 
+<!--This div serves as a background for this section-->
    <div class="contact-info">
+<!--This div is the white box-->
      <div class="boxx">
       <h3>Come visit us!</h3>
       <h4>12:00pm - 11:30pm</h4>
@@ -159,7 +167,9 @@
       <img src ="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" >
       <img src ="http://simpleicon.com/dev/wp-content/uploads/twitter-2-128x128.png">
      </div>
-      <a class="active" href="#home" id="icon">
+
+<!--This button links to the top section by the <a> tag. So when I click on it, I will jump back to the top.-->
+    <a class="active" href="#home" id="icon">
         <p>TOP</p>
       </a>
    </div>
